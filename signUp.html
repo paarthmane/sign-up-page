@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--side image with height of 750 and width 650 -->
+   <div class="sideImage">
+    <img src="/sign-up_form/images/war_agaisnt_AI.png" alt="human with modern day weapons fighting robots , cyberpunk , realistic ,4k ,with background of sunset and moon " width="650" height="750">
+   </div>
+
+   <!--info to the right side-->
+   <div class="content">
+
+    <!-- description text -->
+   <div class="description">
+    <p>We Can Be Heroes In Our Own Lives, Every One Of Us. If We Only Have The Courage To Try. </p>
+   </div>
+
+<!--form to get information from user-->
+    <form action="#" method="get">
+    <ul>
+<!-- to get user name -->
+        <div class="Name">
+    <li>
+        <label for="FirstName">First Name :</label>
+        <input type="text" id="FirstName"  minlength="1" maxlength="10" required>
+    </li>
+    <li>
+        <label for="LastName">Last Name :</label>
+        <input type="text" id="LastName"  minlength="1" maxlength="10" >
+    </li>
+        </div>
+<!--to get user's contact details-->
+        <div class="contact-info">
+    <li>
+        <label for="Mobile"> Mobile No. :</label>
+        <input type="text" id="Mobile" required  maxlength="10" pattern="[6789][0-9]{9}" title="Please enter a valid indian mobile number like 8888888888">
+    </li>
+    <li>
+        <label for="email">Email :</label>
+        <input type="email" id="email"  required>
+    </li>
+        </div>
+<!--to create new password-->
+        <div class="password">
+    <li>
+        <label for="password">Password :</label>
+        <input type="password" id="password" required minlength="5" maxlength="10" required>
+    </li>
+    <li>
+        <label for="confPassword">Confirm password :</label>
+        <input type="Password" id="confpassword" required minlength="5" maxlength="10" required onkeyup="checkpassword(this)">
+    </li>
+        </div>
+
+    </ul>
+<!-- submit the information -->
+        <div class="button">
+            <button type="submit" id="join">Join Now</button>
+            <button type="reset">Reset</button>
+        </div>
+   
+    </form>
+
+    <!-- to login in if already have an account  -->
+    <div class="account">
+        <p>already have an account <button class="LogIn"><a href="#">Log in</a></button></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

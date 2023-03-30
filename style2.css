@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Changa One',sans-serif;
+    margin: 30px;
+   
+  }
+  .toend{
+    color: #EC3186;
+    font-family: 'Koulen',sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    margin: 0px;
+  }
+
+  b{
+    color: #EC3186;
+  }
+  
+  body{
+    background-size: cover;
+    background-image: url(/sign-up_form/images/wp1818433-ultron-wallpapers.jpg);
+    background-color: rgba(1, 90, 255, 0.547);
+    background-blend-mode: multiply;
+      
+  
+  }
+   button{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    background-color:rgb(255, 0, 128);
+    border: rgb(73, 73, 246) 1px solid;
+    border-radius: 5px;
+    font-family: 'Changa One',sans-serif;
+    padding: 0px 10px;
+}
+ button:hover{
+   color:rgb(255, 0, 128);
+   background-color: white;
+   border: #EC3186 1px solid;
+   box-shadow: rgb(255, 0, 128) 5px 5px 15px;
+   border: rgb(73, 73, 246) 3px solid;
+}
+.sun{
+color: rgb(255, 184, 19);
+}
+.galaxy{
+    color: rgb(58, 156, 171);
+}
+.villian{
+    font-size: 70px;
+}
